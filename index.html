@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./resources/CSS/style.css">
+    <title>Noble Touch Lawn Care LLC</title>
+</head>
+
+<body>
+    <!--Header and Navbar-->
+  <div class="navbar">
+    <img src="./resources/lawn-img/nobletouch-logo-PhotoRoom.png" alt="Logo">
+      <ul id="navi-list">
+        <li><a href="#services">Lawn Care Services</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+  <div class="menu" id="toggle-button">
+    <div class="menu-line"></div>
+    <div class="menu-line"></div>  
+    <div class="menu-line"></div>
+  </div>
+  </div>
+
+    <!--Banner-->
+  <div class="main">
+  <div class="banner">
+    <h1>Noble Touch Lawn Care</h1>
+    <h3>The Noble Approach to Lawn Care</h3>
+  </div>
+
+    <!--Services-->
+  <h2 id="service">Services</h2>
+  <div class="services" >
+    <div class="service">
+        <img src="./resources/lawn-img/post-mowing-1.JPG" alt="Post Mowing">
+      <h3>Lawn Mowing</h3>
+      <p>We reccomend getting your lawn cut on a weekly basis however we do offer different schedules or on an as needed basis.</p>
+    </div>
+    <div class="service">
+        <img src="./resources/lawn-img/post-bush-trim.JPG" alt="Post Bush Trim">
+      <h3>Shrub Trimming</h3>
+      <p>We recommend twice a year at the minimum but ideally shrubs should be pruined every other month. 
+        Each plant has a different ideal time to be pruined so to find the ideal schedule for you contact us for more information.</p>
+    </div>
+    <div class="service">
+        <img src="./resources/lawn-img/post-leaves.JPG" alt="Post Leaves Cleanup">
+      <h3>Leaf Removal</h3>
+      <p>Leaf removal not only keeps your yard looking great but also lets the grass get the sunlight it needs to stay healthy and grow. 
+        Leaves also develop snow mold over the winter which can leave discolored patches of grass.
+      </p>
+    </div>
+    <div class="service">
+        <img src="./resources/lawn-img/post-pressure-washing.JPG" alt="Post Pressure Washing">
+      <h3>Pressure Washing</h3>
+      <p>Pressure washing is a great way to keep your house, driveway, and sidewalk nonslick and shiny. 
+        More importantly pressure washing removes mildew, mold, and algie that can harm the house.</p>
+    </div>
+  </div>
+    <!--About Us-->
+    <h2 class="about-heading">About Me</h2>
+  <div class="about-me" id="about-us">
+    <img src="./resources/lawn-img/ceo.JPG" alt="Owners Pictue">
+    <p>Hello, my name is Jadon Noble and I started my lawn care business in 2016 when I was finishing high school.
+     I then went to college at Missouri State University where I obtained my business degree in Marketing Sales Management in 2020. 
+     I went on to complete my Masters degree in Business Administration in December of 2021. 
+     I worked through college by running my lawn care business and have decided to pursue a full time career in this industry. 
+    </p>
+  </div>
+  </div>
+    <!--Footer/Contact-->
+  <div class="contact" id="contact">
+    <h2>Contact Us Now!</h2>
+    <h5>
+        <a href="tel: 4178601817">Call: (417) 860-1817</a> 
+    </h5>
+    <h5>
+        <a href="sms: 4178601817">Text: (417) 860-1817</a>
+    </h5>
+    <h5>
+        <a href="mailto: nobletouchlawn@gmail.com">Email: nobletouchlawn@gmail.com</a>
+    </h5>
+  </div>
+  <div class="copywrite">
+   <p>Copyright © 2022 Noble Touch LLC. All rights reserved.</p>
+   </div>
+
+</body>
+
+<script>
+  const toggleButton = document.getElementById("toggle-button");
+  const naviList = document.getElementById("navi-list");
+
+  toggleButton.addEventListener('click', () => {
+    naviList.classList.toggle('active');
+  })
+</script>
+</html>
