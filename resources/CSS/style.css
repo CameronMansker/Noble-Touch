@@ -94,7 +94,7 @@ li{
 /* banner */
 
 .banner {
-  background-image: url("../lawn-img/grass-cutting-banner.jpg");
+  background-image: url("../lawn-img/homepage.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -104,8 +104,8 @@ li{
 
 .banner h1 {
   text-align: center;
-  color: white;
-  text-shadow:1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;
+  color: black;
+  text-shadow:1px 0 0 white,0 1px 0 white,-1px 0 0 white,0 -1px 0 white;
   font-size: 6rem;
   padding-top: 175px;
   margin-bottom: 0px;
